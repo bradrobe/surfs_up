@@ -8,13 +8,6 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-start = datetime.datetime.strptime("01-01-2017", "%d-%m-%Y")
-end = datetime.datetime.strptime("12-30-2017", "%d-%m-%Y")
-date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
-
-for date in date_generated:
-    print date.strftime("%d-%m-%Y")
-
 engine = create_engine("sqlite:///hawaii.sqlite")
 
 Base = automap_base()
@@ -93,8 +86,8 @@ def temp_monthly():
 #if __name__ == '__main__':
 #    app.run()
 
-@app.route("/api/v1.0/<start>")
-@app.route("/api/v1.0/<start>/<end>")
+@app.route("/api/v1.0/temp/<start>")
+@app.route("/api/v1.0/temp/<start>/<end>")
 
 def stats(start=None, end=None):
     sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
@@ -108,6 +101,7 @@ def stats(start=None, end=None):
     results = session.query(*sel).\
         filter(Measurement.date >= start).\
         filter(Measurement.date <= end).all()
+    print(results,start,end)
     temps = list(np.ravel(results))
     return jsonify(temps)
 
