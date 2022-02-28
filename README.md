@@ -4,7 +4,7 @@
 The purpose of the analysis shows how the utilization of extracting data from a dataset can be beneficial in business decisions.  In this scenario, the weather data contained in the dataset provided information pertaining to the temperature in Oahu, Hawaii during the months of June and December.  This information, along with precipitation data assisted in the decision making of whether to or not open a surf shop.
 ## Results:
 ![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/june_temp_curve.png) ![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/dec_temp_curve.png)
-![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/june_temps.png)
+![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/june_temps.png) ![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/december_temps.png)
 ### Key Differences in weather:
 
 •	The bell curves indicate June has a more normal temperature frequency than that of December temperatures.
