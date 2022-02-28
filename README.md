@@ -3,7 +3,7 @@
 ## Overview of the statistical analysis:
 The purpose of the analysis shows how the utilization of extracting data from a dataset can be beneficial in business decisions.  In this scenario, the weather data contained in the dataset provided information pertaining to the temperature in Oahu, Hawaii during the months of June and December.  This information, along with precipitation data assisted in the decision making of whether to or not open a surf shop.
 ## Results:
- 			 
+!This is an Image (https://github.com/bradrobe/surfs_up/blob/main/Resources/june_temp_curve.png)
  				 
 ### Key Differences in weather:
 
