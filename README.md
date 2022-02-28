@@ -19,8 +19,10 @@ In moving forward I would like to obtain additional information about wind, prec
 Some additional information below pertaining to the temperatures 9 stations.  The queries will show the average temperatures at each station for the month of June and December.
 
 Stations temperature in June:
+
 ![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/stations_june_temp.png)
 
 Stations temperature in December:
+
 ![This is an image](https://github.com/bradrobe/surfs_up/blob/main/Resources/station_dec_temp.png)
 
